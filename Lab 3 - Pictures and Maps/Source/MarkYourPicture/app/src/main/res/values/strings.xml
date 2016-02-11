@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mark Your Picture</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location">Mark Your Picture</string>
+</resources>
