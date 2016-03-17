@@ -1,0 +1,15 @@
+{
+    "jscodehints.detectedExclusions": [
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/assets/www/lib/ionic/js/angular/angular-animate.min.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/build/intermediates/assets/debug/www/cordova-js-src/exec.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/assets/www/js/controllers.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/assets/www/js/directives.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/assets/www/js/routes.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/assets/www/js/services.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/www/js/app.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/assets/www/lib/ionic/js/angular/angular-resource.min.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/plugins/cordova-plugin-device/src/firefoxos/DeviceProxy.js",
+        "G:/StudyMaterial/ASE/Lab/Lab8/DemoRestIonic/platforms/android/platform_www/cordova.js"
+    ]
+}
