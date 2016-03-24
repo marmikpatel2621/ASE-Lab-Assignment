@@ -1,0 +1,24 @@
+<ion-view title="Find Food">
+    <ion-content overflow-scroll="true" padding="true" class="has-header" st>
+        <h3 style="text-align:center">Where to Find...!!!</h3>
+        <div class="spacer" style="width: 283px; height: 8px;"></div>
+        <form class="list">
+            <input type="text" ng-model="city" id="city" placeholder="Enter City">
+            <div class="spacer" style="width: 283px; height: 12px;"></div>
+            <input type="text" ng-model="food1" id="food1" placeholder="Enter Food">
+            <button id="shoppingMall-button3" ng-click="getFood()" class="button button-balanced  button-block icon ion-android-search">Find Food</button>
+            <div class="spacer" style="width: 283px; height: 12px;"></div>
+        </form>
+        <li ng-repeat="venue in venueList" style="margin-bottom: 10px;">
+                                        <a  href="#" ng-click="openInAppBrowser('{{venue.url}}')">{{venue.name}}</a>
+                                        {{venue.location}}
+                                    </li>
+        
+        
+        <!--<ion-list>
+            <ion-item>Item 1</ion-item>
+            <ion-item>Item 2</ion-item>
+            <ion-item>Item 3</ion-item>
+        </ion-list>-->
+    </ion-content>
+</ion-view>

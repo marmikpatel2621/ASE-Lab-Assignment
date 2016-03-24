@@ -1,0 +1,32 @@
+<ion-view title="Find Recipe">
+    <ion-content overflow-scroll="true" padding="true" class="has-header" style="text-align:center">
+        <h3>How to Cook</h3>
+        <div class="spacer" style="width: 283px; height: 10px;"></div>
+        <form class="list">
+                <input type="text" ng-model="food" id="food" placeholder="Enter Recipe to Search">
+            <button id="weatherStatus-button1" ng-click="getRecipe(food)" value="Send" ng-disabled="food == null" class="button button-balanced  button-block icon ion-android-search">Find Recipe</button>
+            <div class="spacer" style="width: 283px; height: 13px;"></div>
+            
+        </form>
+                            <li ng-repeat="r in recipelist">
+                                        <h4 class="widget-title">{{r.name}}</h4>
+                                        <div class="partition-wrap">
+                                            <div class="partition1">
+                                        <img ng-src="{{r.icon}}" style="width: 50px; height: 50px;" align="center"/>
+                                            </div>
+                                            <div class="partition2">
+                                                <a href="#" ng-click="openInAppBrowser('{{r.url}}')"> {{r.url}}</a></div>
+                                        </div>
+        <!--<ion-list>
+            <ion-item>{{name}}</ion-item>
+            <ion-item>{{clouds}}</ion-item>
+            <ion-item>{{humidity}}</ion-item>
+            <ion-item>{{temp}}</ion-item>
+            <ion-item>{{min}}</ion-item>
+            <ion-item>{{max}}</ion-item>
+            <ion-item>{{desc}}</ion-item>
+            <ion-item>{{icon}}</ion-item>
+            <ion-item>{{speed}}</ion-item>
+        </ion-list>-->
+    </ion-content>
+</ion-view>
