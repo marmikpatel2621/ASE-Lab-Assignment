@@ -34,5 +34,6 @@ This application is the demonstration of creating ** *hybrid application* ** usi
 This application is the extension of the Lab 8 assignment. It used the ** *ionic plugin InAppBrowser* ** to implement the functionality of in built browser in the application.
 
 **[Lab 10: AWS](https://github.com/marmikpatel2621/ASE-Lab-Assignment/tree/master/Lab%2010%20-%20Amazon%20Web%20Sevice)**
+
 The demonstration of AWS services and how to host web application or REST service on AWS server.
 
